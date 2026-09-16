@@ -34,6 +34,7 @@ tools:
 
 safe-outputs:
   create-pull-request:
+    github-token: ${{ secrets.GHAW_PR_TOKEN }}
     draft: false
     auto-merge: squash
     branch-prefix: "ghaw-warn/"
